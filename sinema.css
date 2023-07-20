@@ -1,0 +1,54 @@
+body{
+  
+ 
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKbdX20-rXGsTyjLI6VV-fxsvk44_jonlPZQePS674E5H-idfLOC1XEkUKC_L4WyRA0xelDd3DEd3yzmFqNr2BsSX19nbCmqogLThrSgllpKr8AuKaM_8ngibkC9Jn0QtnWtkrPTZrsT1-azwpI6IoFqedHUh_PP1zJJEpdzeXa5MPIvPanwWp4MSJUA/d/SUNSET-BEACH-12312022.png");
+}
+
+h2{
+    color: rosybrown ;
+}
+
+h1{
+    font-family: serif;
+    color: rosybrown;
+    font-size:xx-large;
+}
+
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+   
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 500px;
+  
+  
+
